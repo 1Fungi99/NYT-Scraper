@@ -1,0 +1,35 @@
+.jumbotron {
+    background-color: rgb(9, 9, 109);
+    color: aliceblue;
+    text-align: center
+}
+
+#form-container {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid;
+    padding: 10px;
+    border-color: lightgrey ;
+    margin-bottom: 30px;
+}
+
+#nyart {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid;
+    padding: 10px;  
+    border-color: lightgrey 
+}
+
+.btn-floating :hover {
+    color: rgb(196, 2, 2)
+}
+.btn-floating {
+    color: red;
+}
+
+h4 {
+    background: rgb(235, 234, 234);
+    height: 100%;
+    padding-left: 10px;
+}

@@ -14,7 +14,9 @@
       src="https://kit.fontawesome.com/7526ad2636.js"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="javascript.js"></script>
     <title>NYT Search</title>
+
   </head>
   <body>
     <header>
@@ -32,16 +34,16 @@
         <div class="form-group">
           <label for="exampleFormControlInput1">Search Term: </label>
           <input
-            type="email"
+            type="text"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="exampleFormControlInput1 search-input"
           />
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1"
             >Number of Records To Retrieve:
           </label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" id="exampleFormControlSelect1 record-input">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -52,16 +54,16 @@
         <div class="form-group">
           <label for="exampleFormControlInput1">Start Year: </label>
           <input
-            type="email"
+            type="text"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="exampleFormControlInput1 start-year"
           />
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">End Year: </label>
           <textarea
             class="form-control"
-            id="exampleFormControlTextarea1"
+            id="exampleFormControlTextarea1 end-year"
           ></textarea>
         </div>
       </form>
@@ -69,16 +71,16 @@
       <p>
         <a
           name="searchButton"
-          id="searchButton"
-          class="btn"
+          id="searchButton search"
+          class="btn search"
           href="#"
           role="button"
           ><i class="fa fa-search" aria-hidden="true"></i>Search</a
         >
         <a
           name="clearButton"
-          id="clearButton"
-          class="btn"
+          id="clearButton clear"
+          class="btn clear"
           href="#"
           role="button"
           ><i class="fa fa-trash" aria-hidden="true"></i>Clear Results</a
@@ -88,7 +90,7 @@
 
     <div id="searchParameters">
       <h4>
-        <i class="fa fa-id-card-o" aria-hidden="true"></i>Search Parameters
+        <i class="fa fa-calender" aria-hidden="true"></i>Search Parameters
       </h4>
       <hr />
       <article id="nytArticlesGoHere"></article>
